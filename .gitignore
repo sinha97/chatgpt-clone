@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
+
+#dotenv add to gitignore
 .env
 
 # testing
