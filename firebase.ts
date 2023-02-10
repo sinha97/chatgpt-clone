@@ -3,7 +3,7 @@ import { getApp, getApps, initializeApp } from 'firebase/app';
 import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCukqVgD3Bzn6iEkgGTvAuPa9joy7uAH1Q",
+  apiKey: `${process.env.FIREBASE_APIKEY}`,
   authDomain: "my-chat-gpt-b49da.firebaseapp.com",
   projectId: "my-chat-gpt-b49da",
   storageBucket: "my-chat-gpt-b49da.appspot.com",
