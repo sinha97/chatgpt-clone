@@ -8,6 +8,9 @@
 #dotenv add to gitignore
 .env
 
+# firebase
+/firbase.ts
+
 # testing
 /coverage
 
