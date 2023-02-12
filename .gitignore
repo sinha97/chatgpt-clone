@@ -9,7 +9,7 @@
 .env
 
 # firebase
-/firbase.ts
+firbase.ts
 
 # testing
 /coverage
@@ -40,3 +40,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+serviceAccountKey.json
