@@ -7,7 +7,7 @@ type Props = {
 
 function Message({ message }: Props) {
   const isChatgpt = message.user.name === "Chatgpt";
-  console.log("message", message);
+
   return (
     <div className={`py-5 text-white ${isChatgpt && "bg-[#434654]"}`}>
       <div className="flex space-x-5 px-10 max-w-2xl mx-auto">
